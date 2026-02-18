@@ -8,5 +8,8 @@
 </head>
 <body>
 	<h3>Welcome: ${session_name}</h3>
+	<form action ="logout" method="post">
+	<input type="submit" value="Logout" />
+	</form>
 </body>
 </html>
